@@ -21,3 +21,9 @@
 ```
 
 
+## Training and Validation
+
+1) Have used the pretrained model of BERT from huggingface package, as the task required to return two outputs i.e emotion and towards which product it is inclined to, so for that a two linear layers were used , which uses hidden output of the BERT pretrained model.
+2) train_val.py is the training code
+
+
